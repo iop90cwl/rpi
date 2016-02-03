@@ -13,7 +13,7 @@ Add a user
 #mkdir /home/[user]
 #chown cwc:users -R /home/[user]
 //Give the user sudo and dialout privilege
-#usermod -a -G sudo,dialout [user]
+#usermod -a -G sudo,dialout,video [user]
 
 //************************************************
 //Set up git
