@@ -1,0 +1,25 @@
+$sudo -i
+#apt-get update
+#apt-get install nmap
+#ifconfig 
+#dchlient eth0
+//Install these programs
+#apt-get install geany
+#apt-get install git
+
+Add a user
+#useradd [user]
+#passwd [user]
+#mkdir /home/[user]
+#chown cwc:users -R /home/[user]
+//Give the user sudo and dialout privilege
+#usermod -a -G sudo,dialout [user]
+
+//************************************************
+//Set up git
+$git config  --list
+$git config --global user.user "[user]"
+$git config --global user.name "[real name or GitHub name]"
+$git config --global user.username "[username]"
+$git config --global user.email  "[email]"
+$git config  --list
