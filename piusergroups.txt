@@ -1,0 +1,4 @@
+useradd -m -G users,wheel,audio -s /bin/bash [user]
+
+useradd -m -G adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,gpio,i2c,spi -s /bin/bash [user]
+
